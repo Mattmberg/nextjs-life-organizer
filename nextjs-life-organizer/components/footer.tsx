@@ -3,10 +3,10 @@ type FooterProps = {
     copyrightYear: number;
 };
 
-export default function Footer({authorName}: FooterProps) {
+export default function Footer({authorName, copyrightYear}: FooterProps) {
     return (
         <footer>
-            &copy; 2026 {authorName}
+            &copy; {copyrightYear} {authorName}
         </footer>
     );
 }
