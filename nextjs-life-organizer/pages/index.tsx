@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <Container>
-        <Header/>
+        <Header pageTitle="Life Organizer"/>
 
         <Footer/>
     </Container>
