@@ -1,5 +1,6 @@
 type FooterProps = {
     authorName: string;
+    copyrightYear: number;
 };
 
 export default function Footer({authorName}: FooterProps) {
