@@ -9,7 +9,7 @@ export default function Home() {
     <Container>
         <Header pageTitle="Life Organizer"/>
 
-        <Footer authorName="Matthew Bergeron Jr"/>
+        <Footer authorName="Matthew Bergeron Jr" copyrightYear={2026}/>
     </Container>
     </>
   );
