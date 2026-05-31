@@ -13,9 +13,7 @@ type HeaderProps = {
 export default function Header({pageTitle}: HeaderProps) {
     return (
         <header>
-            <h1>Welcome to your Life Organizer!</h1>
-
-            <NavBar websiteName="Life Organizer" links={navigationLinks} />
+            <NavBar websiteName={pageTitle} links={navigationLinks} />
         </header>
     );
 }
