@@ -3,7 +3,7 @@ import { NavItem } from './NavBar';
 
 const navigationLinks: NavItem[] = [
   { label: 'Home', href: '/' },
-  //{ label: 'About', href: '/about' },
+  { label: 'Login', href: '/login' },
 ];
 
 type HeaderProps = {
