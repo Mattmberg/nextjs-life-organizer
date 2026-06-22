@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Container>
-        <Header pageTitle="Life Organizer"/>
+        <Header pageTitle="Life Organizer" siteTitle="Life Organizer"/>
 
         <Footer authorName="Matthew Bergeron Jr" copyrightYear={2026}/>
     </Container>
