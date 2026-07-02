@@ -7,13 +7,13 @@ const navigationLinks: NavItem[] = [
 ];
 
 type HeaderProps = {
-    pageTitle: string;
+    siteTitle: string;
 };
 
-export default function Header({pageTitle}: HeaderProps) {
+export default function Header({ siteTitle}: HeaderProps) {
     return (
         <header>
-            <NavBar websiteName={pageTitle} links={navigationLinks} />
+            <NavBar websiteName={siteTitle} links={navigationLinks} />
         </header>
     );
 }
