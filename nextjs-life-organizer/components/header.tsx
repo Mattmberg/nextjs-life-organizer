@@ -4,6 +4,8 @@ import { NavItem } from './NavBar';
 const navigationLinks: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'Login', href: '/login' },
+  { label: 'Preferences', href: '/preferences' },
+  {label: 'Account', href: '/account' },
 ];
 
 type HeaderProps = {
