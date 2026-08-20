@@ -3,5 +3,5 @@ type ContainerProps = {
 };
 
 export default function Container({ children }: ContainerProps) {
-    return <div className="">{children}</div>;
+    return <div className="container">{children}</div>;
 }
