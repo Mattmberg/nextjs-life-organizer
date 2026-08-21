@@ -11,14 +11,14 @@ interface NavBarProps {
 
 export default function NavBar({websiteName, links}: NavBarProps) {
     return (
-        <nav>
-          <div className="">
+        <nav className="navGroup">
+          <div className="websiteIcon">
             <a href="/" className="">
               {websiteName}
             </a>
           </div>
 
-          <div className="">
+          <div className="linksGroup">
             {links.map((link) => (
               <a
                 key={link.href}
