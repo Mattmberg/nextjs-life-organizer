@@ -1,9 +1,9 @@
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import "../assets/css/site.css";
 
 import type { AppProps } from "next/app";
 import Head from "next/head";
-import Header from "@/components/header";
+import Header from "@/components/Header";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
