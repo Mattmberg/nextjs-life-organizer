@@ -1,9 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This app is going to be a tool that can be used to keep track of all the things in your life that need tracking.
 
-```bash
-npm run dev
+This app is intended for personal use not commercial.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Things I am aiming to track:
+    - Schedule
+    - Medication
+    - Your Children(s) Preferences (i.e. food, soaps etc.), Schedule, Medication
+    - Wishlists to keep track of gift ideas.
