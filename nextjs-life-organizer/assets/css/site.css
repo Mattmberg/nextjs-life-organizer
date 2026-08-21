@@ -1,0 +1,136 @@
+/*html {
+    text-align: center;
+    gap: 1rem;
+    justify-content: space-between;
+    min-height: 100dvh;
+    min-width: 100dvh;
+    margin: 0;
+}*/
+
+
+body {
+    margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#__next {
+  flex: 1 1 auto;
+}
+
+.contentContainer {
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+.container {
+    flex: 1;
+}
+
+.navGroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.websiteIcon {
+
+}
+
+.linksGroup {
+
+}
+
+main {
+    padding: 2.5%;
+    text-align: center;
+}
+
+body {
+    /*margin: 0;
+    min-height: 100dvh;
+    width: 100dvh;
+    display: flex;
+    flex-direction: column;*/
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 18px;
+    color: black;
+    text-decoration-style: wavy;
+    background-color: aliceblue;
+    padding: 12px;
+    background: rgb(88, 88, 88);
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+
+header a {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+.links {
+    float: right;
+}
+
+.logolink {
+    float: left;
+}
+
+.content {
+    /*text-align: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;*/
+}
+
+footer {
+    /*position: fixed;
+    bottom: 0;
+    left: 0;*/
+    width: 100%;
+    font-size: 18px;
+    color: black;
+    background-color: aliceblue;
+    background: rgb(88, 88, 88);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid var(--color-border);
+    text-align: center;
+    height: 45px;
+}
+
+.footerLinks {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+form {
+    padding: 24px;
+}
+
+#form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-group label {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+#form-group input {
+    font-size: 24px;
+}
