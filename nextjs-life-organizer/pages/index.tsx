@@ -1,15 +1,15 @@
-import Container from "@/components/container";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Container from "@/components/Container";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
-    <Container>
-        <Header pageTitle="Life Organizer" siteTitle="Life Organizer"/>
-
-        <Footer authorName="Matthew Bergeron Jr" copyrightYear={2026}/>
-    </Container>
+      <Container>
+        <main>
+          <h1>Welcome the the home page for the Life Organizer App made with Next.js</h1>
+        </main>
+      </Container>
     </>
   );
 }
