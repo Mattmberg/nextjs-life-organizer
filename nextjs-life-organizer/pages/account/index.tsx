@@ -1,14 +1,12 @@
-import Container from "@/components/container";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Container from "@/components/Container";
 
 export default function Account() {
   return (
     <>
     <Container>
-        <Header pageTitle="Life Organizer"/>
+      <main>
 
-        <Footer authorName="Matthew Bergeron Jr" copyrightYear={2026}/>
+      </main>
     </Container>
     </>
   );
